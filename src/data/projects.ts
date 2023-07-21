@@ -7,8 +7,8 @@ export type Project = {
 
 const projects: Project[] = [
   {
-    title: "Dictionary App",
-    techs: ["ReactJS (NextJS)", "react-query", "zod"],
+    title: "YOOT - Minimalist Content management system",
+    techs: ["Sveltekit", "TypeScript", "Express", "Bun", "postgres", "redis"],
     link: "https://github.com/MaeWolff/dictionary-app",
   },
   {
