@@ -9,18 +9,13 @@ const projects: Project[] = [
   {
     title: "YOOT - Minimalist Content management system",
     techs: ["Sveltekit", "TypeScript", "Express", "Bun", "postgres", "redis"],
-    link: "https://github.com/MaeWolff/dictionary-app",
+    link: "https://github.com/TheWisePigeon/yoot",
+    isComingSoon: true
   },
   {
-    title: "Portfolio / Lina BLIDI",
-    techs: ["ReactJS (NextJS)", "TypeScript"],
-    link: "https://www.linablidi.fr/",
-  },
-  {
-    title: "Portfolio / Template",
-    techs: ["Astro"],
-    link: "/",
-    isComingSoon: true,
+    title: "kuchiyose - Project bootstraper",
+    techs : ["JavaScript", "NPM", "Github actions"],
+    link: "https://github.com/TheWisePigeon/kuchiyose"
   },
 ];
 

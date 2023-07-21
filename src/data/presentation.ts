@@ -17,11 +17,7 @@ const presentation: Presentation = {
     "I'm a passionate *software developer* and relentless problem solver. *I love Open Source* and spend most of my free time working on side projects. I also write about tech stuff",
   socials: [
     {
-      label: "Twiiter",
-      link: "https://twitter.com/pigeondev0_0",
-    },
-    {
-      label: "Github",
+      label: "Github profile",
       link: "https://github.com/TheWisePigeon",
     },
   ],
