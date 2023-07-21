@@ -30,7 +30,7 @@ const posts = await getCollection("posts");
         <h3 class="text-lg text-neutral-100">Latest posts</h3>
         <Link href="/posts" label="See all posts" isUnderline target="_self" />
       </header>
-      {posts.length === 0 && <p>Soon, stay connected 👀...</p>}
+      {posts.length === 0 && <p>Soon, stay connected ...</p>}
 
       <section class="flex flex-col gap-4 md:flex-row md:flex-wrap">
         {
@@ -50,10 +50,11 @@ const posts = await getCollection("posts");
     </article>
 
     <article class="flex flex-col gap-8">
-      <header class="flex w-full flex-row justify-between gap-2">
+      <header class="flex w-full flex-row items-baseline gap-2">
         <h3 class="text-lg text-neutral-100">
-          Selected projects ({projects.length})
+          Some of my projects
         </h3>
+        <a class="text-orange-500" href="https://github.com/TheWisePigeon" target="_blank">More here</a>
       </header>
       {projects.length === 0 && <p>Oops, I must work^^^^^</p>}
 
@@ -66,16 +67,6 @@ const posts = await getCollection("posts");
     </article>
 
     <article class="flex flex-col gap-8">
-      <header class="flex w-full flex-row justify-between gap-2">
-        <h3 class="text-lg text-neutral-100">Get in touch</h3>
-      </header>
-      <p>
-        Email me at <Link
-          href={`mailto:${presentation.mail}`}
-          label={presentation.mail}
-        /> or follow me via my social links.
-      </p>
-
       <SocialLinks />
     </article>
   </main>
