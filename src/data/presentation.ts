@@ -23,6 +23,10 @@ const presentation: Presentation = {
     {
       label:"Bento",
       link:"https://bento.me/thewisepigeon"
+    },
+    {
+      label:"CV",
+      link:"/cv.html"
     }
   ],
 };
