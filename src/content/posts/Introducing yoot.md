@@ -25,10 +25,14 @@ more.
 YOOT's structure is a bit based on Relational databases structure. To use YOOT, you first have to create an account and login to get access to the console. Then you will
 have to create a `Project`. A project kind of stands for a new database. In the earlier days of YOOT I wanted to call them `containers` instead, but I can't remember why I changed
 my mind lol.
+![image](https://github.com/TheWisePigeon/blogfolio/assets/95161388/ed04a5ad-fb96-43a2-b59d-8f6c343f712a)
+
 
 ### Entities
 Moving on, you will now have to get inside a project and create an `Entity`, they stand for the tables in this case. An entity has a name and a `Schema`. The schema describes the
 entity's fields and their respective type. Here is an example of a Product entity.
+
+![image](https://github.com/TheWisePigeon/blogfolio/assets/95161388/8f83de44-78dc-41e8-bfae-0c409ff01c61)
 
 
 More types will be added(or not) in the future. At the moment we have 4 types which are:
@@ -40,6 +44,9 @@ More types will be added(or not) in the future. At the moment we have 4 types wh
 ### Entries
 Entries are the rows inside an entity. They are the data you will mostly be consuming in your external apps.
 
+![image](https://github.com/TheWisePigeon/blogfolio/assets/95161388/ece8ff41-ab82-461a-8926-e661504e5533)
+
+
 ### API Keys
 In order to access your data outside of YOOT, you will have to call our API. While creating an API key you will be asked for the permissions you want to give the key,
 you can not change these permissions afterwards, you will have to create another key. The 
@@ -48,6 +55,9 @@ main permissions are:
 - Create: Gives the key the rights to create new data like entities and entries
 - Write: Gives the key the rights to modify existing data
 - Delete: You know what it does
+
+![image](https://github.com/TheWisePigeon/blogfolio/assets/95161388/2ac3f973-ffce-457b-a8b2-3101a71436f1)
+
 
 We have an extended documentation of how to use the API at <a href="https://docs.yootcms.xyz" target="_blank">docs.yootcms.xyz</a> for more informations.
 
