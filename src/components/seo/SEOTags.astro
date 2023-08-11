@@ -17,7 +17,7 @@ type Props = {
 
 const { title, description, noindex, og } = Astro.props;
 
-const DEFAULT_TITLE_PAGE = "TheWisePigeon's blogfolio";
+const DEFAULT_TITLE_PAGE = "TheWisePigeon's blog";
 const DEFAULT_DESCRIPTION_PAGE =
   "My little place on the internet where I write about software development related stuff and life in general";
 const DEFAULT_URL_SITE = SITE_URL;
@@ -26,7 +26,7 @@ const openGraph = {
   title: og?.title || DEFAULT_TITLE_PAGE,
   type: og?.type || "website",
   image: og?.image || "/opengraph-image.png",
-  alt: og?.alt || "astro portfolio template image",
+  alt: og?.alt || "",
   url: DEFAULT_URL_SITE,
   description: og?.description || DEFAULT_DESCRIPTION_PAGE,
 };
