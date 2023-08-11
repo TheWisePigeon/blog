@@ -29,7 +29,7 @@ that would keep me hungry for skills, hungry for more skills, something that eve
 `Seth Godin` wrote
 > The self-doubt that's built into the lizard brain is there for a reason—to protect you from failure. But it also sabotages any chance you have to be remarkable.
 
-I like this quote because it explains perfectly how I feel about my impostor syndrome. I am thankfull for having it because as long as it's there, I will keep pushing forward, but I know
+I like this quote because it explains perfectly how I feel about my impostor syndrome. I am thankful for having it because as long as it's there, I will keep pushing forward, but I know
 I will miss some opportunities because it will be seen as lack of confidence instead of a reason to be better. But, the good thing about it is that when, eventually, it goes away, I will be as 
 good as I always wanted to be, which I don't think will ever happen... but I am fine with that eventuality.
 
