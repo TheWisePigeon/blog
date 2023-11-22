@@ -98,7 +98,7 @@ Visio will always return comprehensive error messages to help you debug your cod
 
 ## Wrapping up
 Visio is still in a very early stage and my goal is to turn it into a robust service that other developers could use in their apps. Contributions are very welcome and please join the 
-community on [Discord](https://discord.gg/rDNvUpct) so that we can shape Visio's future together. Also give me a star and a follow on [github](https://github.com/TheWisePigeon/visio).
+community on [Discord](https://discord.gg/9vDumSjK3F) so that we can shape Visio's future together. Also give me a star and a follow on [github](https://github.com/TheWisePigeon/visio).
 Thank you for reading and hopefully talk to you on Discord :)
 
 Pigeoff
